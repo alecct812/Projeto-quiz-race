@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    color: #e0e0e0;
+}
+
+/* Botão estilizado como link (substitui <a> de navegação, evitando o DOM). */
+.link-button {
+    background: none;
+    border: none;
+    color: #7f8c8d;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: inherit;
+    transition: color 0.3s;
+    padding: 4px 0;
+}
+
+.link-button:hover {
+    color: #ffd200;
+}
+
+.hidden {
+    display: none !important;
+}
